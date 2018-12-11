@@ -3,9 +3,7 @@
   <div class="reserv_container">
     <?php 
 
-      $link = mysqli_connect("localhost", "root", "root", "test_database");
-
-      mysqli_set_charset($link,'utf8');
+    include 'db.php';
 
         // $link = mysqli_connect("localhost", "uskov_project1_2018_2", "LokzNGLA", "uskov_project1_2018_2");
 
